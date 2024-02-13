@@ -1,0 +1,307 @@
+
+/* GENERAL */
+
+body{
+    background-image:linear-gradient(to right, rgb(123, 193, 221), rgb(247, 193, 94) );
+}
+.main{
+    /* width: 60vw; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    min-height: 40vh;
+    /* height: 60vh; */
+    max-height: 90vh;
+    width:55vw;
+    padding: 1%;
+    /* margin: 3%; */
+    border: 1px solid black;
+    background-image:linear-gradient(to right, rgb(224, 198, 113),rgb(124, 193, 223));
+}
+/* VIDEO  */
+.video {
+    /* width:100%; */
+    
+    min-height: 40vh;
+    max-height: 60vh;
+    /* max-height: auto; */
+    /* margin-right: 3%; */
+    border: 10px double rgb(66, 66, 66);
+}
+.video img{
+    width: 100%;
+    /* height: 430px; */
+    min-height: 40vh;
+    max-height: 60vh;
+}
+
+/* FORM */
+.formbtn{
+    width: 900px;
+    height: 400px;
+    /* margin-top: 1%; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.form{
+    /* height: 900px; */
+    
+    padding: 5%;
+    border: 3px solid black;
+}
+.form h3{
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.form button{
+    width: 50%;
+    height: 30px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    margin: 0% 4% 0% 24% ;
+}
+
+/* INPUT */
+.input{
+    display: flex;
+}
+
+/* LABEL */
+.input-label{
+    margin-left: 1%;
+    font-weight: bold;
+    color: rgb(2, 2, 70);
+}
+.input-label label{
+    /* margin-left: 18%; */
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* PLAY AND NEXT BUTTONS  */
+/* .btns{
+    display: flex;
+    margin: 2%;
+}
+.btns a{
+    width: 100%;
+    height: 50px;
+}
+.btns button{
+    width: 60%;
+    height: 40px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    margin: 0% 4% 0% 10% ;
+} */
+
+/* PAGE 1 */
+
+.s1-in input{
+    margin-bottom: 6%;
+    margin-top: -18%;
+}
+.s1-h3{
+    margin: 4% 0% 10% 5%;
+}
+.s1-form{
+    margin: 5% 2% 5% 2%;
+}
+
+/* PAGE 2 */
+
+.s2-in input{
+    margin-bottom: 1%;
+    margin-top: -23%;
+}
+.s2-h3{
+    margin: 2% 0% 1% 5%;
+}
+.s2-form{
+    margin: -5% 2% 0% 2%;
+}
+
+
+/* PAGE 3A  */
+.s3{
+    width: 900px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 6% 5% 2% 13%;
+}
+.s3 h3{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 4%;    
+    text-align: center;
+}
+.s3 form textarea{
+    margin-left: 8%;
+}
+
+/* SCREEN 4 */
+
+.s4-btn{
+    margin-left: 20%;
+
+}
+
+/* SCREEN 5-5A */
+
+.s5-btn{
+    margin: 15% 10% 20% 4%;
+    display: flex;
+    flex-direction: column;
+}
+.s5-btn button{
+    width: 200px;
+    margin-bottom: 10%;
+}
+
+/* SCREEN 6 */
+
+.label-s6 label{
+    margin-left: 0%;
+    margin-bottom: 5%;
+}
+.s6-in1 input{
+    margin-top: -6%;
+}
+.s6-in2 input{
+    margin-top: -14%;
+}
+.s6-in3 input{
+    margin-top: -13%;
+}
+.s6-in4 input{
+    margin-top: -6%;
+}
+.s6-h3{
+    margin: 2% 0% 3% 5%;
+}
+.s6-form button{
+    margin: 6% 4% 0% 24% ;
+}
+
+/* SCREEN 8 */
+
+.s8-in1 input{
+    margin-top: -11%;
+}
+.s8-in2 input{
+    margin-top: -12%;
+}
+.s8-in3 input{
+    margin-top: -5%;
+}
+.s8-in4 input{
+    margin-top: -17%;
+}
+.label-s8 label{
+    margin-left: 1%;
+    font-size: 14px;
+}
+
+/* SCREEN 9 */
+
+
+.s9-in1 input{
+    margin-top: -6%;
+}
+.s9-in2 input{
+    margin-top: -6%;
+}
+.s9-in3 input{
+    margin-top: -6%;
+}
+.s9-in4 input{
+    margin-top: -6%;
+}
+
+/* SCREEN 10 */
+
+.s10-in1 input{
+    margin-top: -5%;
+}
+.s10-in2 input{
+    margin-top: -13%;
+}
+.s10-in3 input{
+    margin-top: -5%;
+}
+.s10-in4 input{
+    margin-top: -13%;
+}
+
+
+
+/* below CSS is made by mooz */
+.form-container {
+    max-width: 400px;
+    /* padding: 20vw; */
+    margin: 0 auto;
+  }
+  
+  .styled-form {
+    padding-bottom: 20px;
+    /* min-height: 100%; */
+    min-height: 30vh;
+    max-height: 55vh;
+    /* width:55vw; */
+    margin-left: 20px;
+    margin-right: 20px;
+    
+ /* background-color: #f4f4f4; */
+}
+
+  
+  .form-title {
+    text-align: center;
+    font-size: 1.5em;
+    /* margin-bottom: 20px; */
+  }
+  
+  .form-option {
+    margin-bottom: 10px;
+  }
+  
+  .input-label {
+   padding-top: 4px;
+    padding-left:12px;
+    padding-bottom: 1px;
+    /* border: 1px solid #ddd; */
+    border-radius: 6px;
+    background-color: #fff;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 2px;
+  }
+  
+  .submit-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
